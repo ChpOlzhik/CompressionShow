@@ -1,0 +1,42 @@
+header a:hover{
+    text-decoration: none;
+}
+
+.text-darkgreen{
+    color: #3B4D49;
+}
+
+.text-lightgrey{
+    color: #B1B1B1;
+}
+
+#mimo:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+textarea{
+    height: 100%;!important;
+    width: 100%;!important;
+}
+
+.nav-tabs > button.active{
+    color: #3B4D49;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show >.nav-link{
+    color: #3B4D49;
+    background: none;
+    border: 1px solid black;
+}
+
+.tab-content , .tab-pane label{
+    height: 500px;
+}
+
+.modal-body img{
+    width: 90%;
+}
