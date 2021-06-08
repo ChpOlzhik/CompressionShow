@@ -13,23 +13,16 @@
 
 </head>
 <body>
-<header>
-    <div class="nav">
 
-        <div class="nav-item px-3">
-            <a class="h2 text-darkgreen" href="{% url 'home:main' %}">COMPRESS ANOTHER TEXT</a>
-        </div>
-    </div>
-</header>
 <!--Encoding / decoding    -->
     <section class="py-5">
         <nav>
           <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
               <button class="nav-link active text-lightgrey" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-encoding" type="button" role="tab" aria-controls="nav-encoding" aria-selected="true">
-                  <span class="h2">ENCODING</span>
+                  <span class="h2">COMPRESSION</span>
               </button>
               <button class="nav-link text-lightgrey" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-decoding" type="button" role="tab" aria-controls="nav-decoding" aria-selected="false">
-                  <span class="h2">DECODING</span>
+                  <span class="h2">DECOMPRESSION</span>
               </button>
           </div>
         </nav>
@@ -145,10 +138,11 @@
         </div>
 
         <div class="col-sm-2">
-            <button class="btn btn-secondary w-100 my-2" id="btn-show-1" data-bs-toggle="modal" data-bs-target="#ExplanationModal">
+            <button class="btn btn-primary w-100 my-2" id="btn-show-1" data-bs-toggle="modal" data-bs-target="#ExplanationModal">
                     Show project explanation</button>
-            <button class="btn btn-secondary w-100 my-2" id="btn-show-2" data-bs-toggle="modal" data-bs-target="#CompressionRate">
+            <button class="btn btn-info w-100 my-2" id="btn-show-2" data-bs-toggle="modal" data-bs-target="#CompressionRate">
                     Show compresison ratio</button>
+            <a class="btn btn-warning w-100 my-2" href="{% url 'home:main' %}">Compress another text</a>
         </div>
     </section>
 

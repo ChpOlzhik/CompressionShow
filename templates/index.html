@@ -16,6 +16,9 @@
 
 <section class="pt-3">
     <div class="row">
+        <div class="col text-center">
+            <p class="h2 adver">Здесь могла быть ваша реклама</p>
+        </div>
         <div class="col-auto mx-auto">
             <div class="col px-5 py-2">
                 <button class="btn btn-primary w-100" id="btn-show" data-bs-toggle="modal" data-bs-target="#ExplanationModal">
@@ -28,12 +31,18 @@
                 <input class="btn btn-secondary mt-2 w-100" type="submit" value="Submit">
             </form>
         </div>
+        <div class="col text-center">
+            <p class="h2 adver">Здесь могла быть ваша реклама</p>
+        </div>
     </div>
 </section>
 
 <div class="modal fade" id="ExplanationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
+            <div class="modal-header">
+                <p class="modal-title h5">There is our(Alikhan, Yernur and Olzhas) web project for showing how works compressing text. First of all we encryp text by simple implementation of RSA algorythm, then we compress data with Huffman algorythm, finally we encode bits with Hamming algorythm. Decoding have kind of same process but in reverse order.</p>
+            </div>
             <div class="modal-body text-center">
                 <img src="{% static 'compression/srcs.png' %}">
             </div>

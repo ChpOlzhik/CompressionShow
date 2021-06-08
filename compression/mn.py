@@ -16,7 +16,6 @@ def ee(data):
     e8 = enc.Decrypt(e7)
 
     a = len(data)*8
-    b = len(e3)
-    if b == 0:
-        b = 1
+    b = len(e2)
+
     return [e1, e2, e3, e4, e5, e6, e7, e8, (a, b)]
